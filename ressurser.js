@@ -109,6 +109,8 @@ function endrekategori(id) {
 let knapp = document.getElementById(id)
     knapp.classList.add("active")
 
+//https://stackoverflow.com/questions/4825295/onclick-to-get-the-id-of-the-clicked-button
+//https://www.w3schools.com/jsref/jsref_indexof.asp
 
 
 let index = ider.indexOf(id)
